@@ -12,18 +12,16 @@
 
 
 body {
-  position: absolute;
-  min-height: 300vh;
-  width: 100%;
-  min-width: 1278px;
-  overflow-x: hidden;
-  padding: 0; 
-  margin:0;
-  background: #131313;
-  
-}
-
-  
+    position: absolute;
+    min-height: 300vh;
+    width: 100%;
+    min-width: 1278px;
+    overflow-x: hidden;
+    padding: 0; 
+    margin: 0;
+    background: #131313;
+    
+  }
 
   
   .homebutton {
@@ -645,7 +643,7 @@ body {
       width: 100%;
     }
   }
-  @media only screen and (max-width:300px) {
+  @media only screen and (max-width:500px) {
     /* For mobile phones: */
     .menu, .body, .right {
       width: 100%;
