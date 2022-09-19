@@ -14,14 +14,15 @@
 body {
   position: absolute;
   min-height: 300vh;
-  width: 60%;
-  max-width: 1278px;
+  width: 100%;
+  min-width: 1278px;
   overflow-x: hidden;
   padding: 0; 
-  margin: 0;
+  margin-right: 100px;
   background: #131313;
   
 }
+
   
 
   
