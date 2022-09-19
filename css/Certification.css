@@ -12,18 +12,18 @@
   }
 
   body {
-      position: absolute;
-      min-height: 750vh;
-      width: 100%;
-      max-width: 1920px;
-      overflow-x: hidden;
-      background-color: #41424C;
-      padding: 0; 
-      margin: 0;
-      
+    position: absolute;
+    height: 750vh;
+    width: 100%;
+    max-width: 1366px;
+    overflow-x: hidden;
+    background-color: #41424C;
+    padding: 0; 
+    margin: 0;
+    
 
-      
-    }
+    
+  }
 
 .background-div{
 
