@@ -9,9 +9,6 @@
   box-sizing: border-box;
 }
 
-html{
-  overflow-x: hidden;
-}
 
 body {
   position: absolute;
@@ -197,9 +194,6 @@ video{
 }
 
 
-
-
-  
 .imgVs{
   position: absolute;
   left: 100px;
@@ -213,7 +207,7 @@ video{
         box-sizing: border-box;
     
         position: absolute;
-        width: 1465px;
+        min-width: 1278px;
         height: 49px;
         left: -10px;
         top: 0px;
