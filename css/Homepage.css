@@ -18,7 +18,7 @@ body {
   min-width: 1278px;
   overflow-x: hidden;
   padding: 0; 
-  margin-right: 100px;
+  margin:0;
   background: #131313;
   
 }
@@ -645,7 +645,7 @@ body {
       width: 100%;
     }
   }
-  @media only screen and (max-width:500px) {
+  @media only screen and (max-width:300px) {
     /* For mobile phones: */
     .menu, .body, .right {
       width: 100%;
