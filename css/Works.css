@@ -13,7 +13,7 @@ body {
   position: absolute;
   max-height: 150vh;
   width: 100%;
-  max-width: 1366px;
+  min-width: 1278px;
   overflow-x: hidden;
   padding: 0; 
   margin:0;
