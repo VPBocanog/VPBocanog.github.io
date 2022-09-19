@@ -9,7 +9,6 @@
   box-sizing: border-box;
 }
 
-
 body {
   position: absolute;
   max-height: 150vh;
@@ -194,6 +193,9 @@ video{
 }
 
 
+
+
+  
 .imgVs{
   position: absolute;
   left: 100px;
@@ -207,7 +209,7 @@ video{
         box-sizing: border-box;
     
         position: absolute;
-        min-width: 1366px;
+        width: 1465px;
         height: 49px;
         left: -10px;
         top: 0px;
