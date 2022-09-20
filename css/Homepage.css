@@ -12,19 +12,27 @@
 
 html{
   overflow-x: hidden;
+  position: absolute;
+  min-height: 300vh;
+  width: 100%;
+  max-width: 1366px;
+  padding: 0; 
+  margin: 0;
+  
 }
 
+
 body {
-    position: absolute;
-    min-height: 300vh;
-    width: 100%;
-    min-width: 1366px;
-    overflow-x: hidden;
-    padding: 0; 
-    margin: 0;
-    background: #131313;
-    
-  }
+  position: absolute;
+  min-height: 300vh;
+  width: 100%;
+  max-width: 1366px;
+  overflow-x: hidden;
+  padding: 0; 
+  margin: 0;
+  background: #131313;
+}
+
 
   
   .homebutton {
@@ -170,9 +178,9 @@ body {
   .text1-div{
 
   position: absolute;
-  max-width: 600px;
-  max-height: 36px;
-  left: 73px;
+  min-width: 600px;
+  min-height: 36px;
+  left: 18px;
   top: 131px;
   text-align-last: center;
   font-family: 'Muli', sans-serif;
