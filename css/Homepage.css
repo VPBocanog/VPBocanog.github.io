@@ -15,7 +15,7 @@ html{
   position: absolute;
   min-height: 300vh;
   width: 100%;
-  max-width: 1366px;
+  min-width: 1366px;
   padding: 0; 
   margin: 0;
   

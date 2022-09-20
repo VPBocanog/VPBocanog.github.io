@@ -16,7 +16,7 @@
     position: absolute;
     height: 750vh;
     width: 100%;
-    max-width: 1366px;
+    min-width: 1366px;
     overflow-x: hidden;
     padding: 0; 
     margin:0;
@@ -127,7 +127,7 @@
               position: absolute;
               width: 1111px;
               height: 242px;
-              left: 122px;
+              left: 114px;
               top: 2557px;
               border-radius: 25px;
 
@@ -139,7 +139,7 @@
                 position: absolute;
                 width: 1111px;
                 height: 674px;
-                left: 122px;
+                left: 114px;
                 top: 2799px;
                 border-radius: 25px;
 
@@ -152,7 +152,7 @@
                   position: absolute;
                   width: 1111px;
                   height: 242px;
-                  left: 154px;
+                  left: 114px;
                   top: 3854px;
                   border-radius: 25px;
 
@@ -165,7 +165,7 @@
                     position: absolute;
                     width: 1111px;
                     height: 674px;
-                    left: 154px;
+                    left: 114px;
                     top: 4096px;
                     border-radius: 25px;
                     
