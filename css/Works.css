@@ -358,6 +358,7 @@ video{
     height: 0px;
     left: 13px;
     top: 200px;
+    z-index: 1;
 
     border: 1px solid #FFFFFF;
 
