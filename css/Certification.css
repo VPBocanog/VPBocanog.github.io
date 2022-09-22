@@ -18,8 +18,8 @@
   body {
     position: absolute;
     height: 5000px;
-    
-    width: 1366px;
+    width: 100%;
+    min-width: 1366px;
     
     background-color: #41424C;
     padding: 0; 
