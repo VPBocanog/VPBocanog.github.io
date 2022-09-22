@@ -506,7 +506,7 @@ body {
   }
 
   .imgarduino{
-    max-width: 391px;
+    min-width: 391px;
     max-height: 309px;
   }
 
