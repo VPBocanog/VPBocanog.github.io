@@ -18,7 +18,7 @@ html{
 
 body {
     position: absolute;
-    min-height: 300vh;
+    min-height: 400vh;
     width: 100%;
     min-width: 1366px;
     overflow-x: hidden;
@@ -308,7 +308,7 @@ body {
                 width: 401px;
                 height: 112px;
                 left: 687px;
-                top: 2073px;
+                top: 2093px;
 
                 font-family: 'Quicksand', sans-serif;
                 font-style: normal;
@@ -320,9 +320,6 @@ body {
                 color: #000000;
                 }
   
-
-
-
 
 
 
@@ -390,7 +387,7 @@ body {
     background: whitesmoke;
   }
 
-  /* .rectangle6-div {
+  .rectangle6-div {
     position: absolute;
     width: 582px;
     height: 309px;
@@ -398,7 +395,7 @@ body {
     top: 2004px;
 
     background: whitesmoke;
-  } */
+  } 
 
 
   .recpic1-div{
@@ -510,7 +507,7 @@ body {
     
   }
 
-  .imggraphicdesigns{
+  .imgarduino{
     width: 391px;
     height: 309px;
   }

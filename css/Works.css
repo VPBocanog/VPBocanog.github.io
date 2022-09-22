@@ -16,7 +16,7 @@ html{
 
 body {
   position: absolute;
-  max-height: 450vh;
+  min-height: 150vh;
   width: 100%;
   max-width: 1366px;
   padding: 0; 
