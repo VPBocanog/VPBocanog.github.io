@@ -21,7 +21,7 @@ body {
     height: 2500px;
     width: 100%;
     min-width: 1366px;
-    
+    overflow-x: hidden;
     padding: 0; 
     margin: 0;
     background: #131313;
