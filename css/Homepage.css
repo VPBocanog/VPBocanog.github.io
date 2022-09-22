@@ -18,10 +18,10 @@ html{
 
 body {
     position: absolute;
-    min-height: 400vh;
+    height: 2500px;
     width: 100%;
     min-width: 1366px;
-    overflow-x: hidden;
+    
     padding: 0; 
     margin: 0;
     background: #131313;
@@ -503,6 +503,8 @@ body {
     
     left: 195px;
     top: 2004px;
+
+    
   }
 
   .imgarduino{
