@@ -157,6 +157,7 @@ video{
 .carousel {
   position: absolute;
   top:200px;
+  z-index: -1;
   
 }
 
