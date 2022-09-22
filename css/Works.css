@@ -157,7 +157,6 @@ video{
 .carousel {
   position: absolute;
   top:200px;
-  z-index: -1;
   
 }
 
@@ -168,6 +167,7 @@ video{
   margin-left: 225px;
   color: #ffffff;
   display: none;
+  z-index: -1;
 }
 
 .carousel__item--selected {
