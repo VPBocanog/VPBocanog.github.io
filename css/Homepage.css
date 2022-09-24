@@ -10,6 +10,9 @@
   box-sizing: border-box;
 }
 
+html{
+  overflow-x: hidden;
+}
 
 html,body { 
 
@@ -41,13 +44,9 @@ body {
     
     font-size: medium;
     position: absolute;
-    right:0;
-   
-    margin-left:auto;
-    margin-right:auto;
     width: 172px;
     height: 49px;
-    left: -305px;
+    left: 440px;
     top: 0px;
     cursor: pointer;
     font-family: 'Muli', sans-serif;
@@ -56,7 +55,7 @@ body {
     display: flex;
     background-color: rgba(0,0,0,.5);
     box-shadow: inset 0 0 0 0 black;
-    
+    margin: 0 -.25rem;
     padding: 0 .25rem;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
     text-decoration: none;
@@ -73,7 +72,7 @@ body {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #8C0D07;
+    background-color: #41424C;
     transform-origin: bottom center;
     transition: transform 0.25s ease-out;
   }
@@ -90,14 +89,11 @@ body {
   .certificationbutton{
    
     font-size: medium;
-    right:0;
-   
-    margin-left:auto;
-    margin-right:auto;
+  
     position: absolute;
     width: 171px;
     height: 49px;
-    left: 37px;
+    left: 612px;
     top: 0px;
     text-align: center;
     background-color: rgba(0,0,0,.5);
@@ -109,7 +105,7 @@ body {
     align-items: center;
     display: flex;
     box-shadow: inset 0 0 0 0 black;
-    
+    margin: 0 -.25rem;
     padding: 0 .25rem;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
     
@@ -123,7 +119,7 @@ body {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #8C0D07;
+    background-color: #41424C;
     transform-origin: bottom center;
     transition: transform 0.25s ease-out;
   }
@@ -144,21 +140,17 @@ body {
     justify-content:center;
     align-items: center;
     display: flex;
-    right:0;
-   
-    margin-left:auto;
-    margin-right:auto;
 
     position: absolute;
     width: 172px;
     height: 49px;
-    left: 380px;
+    left: 783px;
     top: 0px;
     text-align: center;
     background-color: rgba(0,0,0,.5);
 
     box-shadow: inset 0 0 0 0 black;
-    
+    margin: 0 -.25rem;
     padding: 0 .25rem;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
     
@@ -176,7 +168,7 @@ body {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #8C0D07;
+    background-color: #41424C;
     transform-origin: bottom center;
     transition: transform 0.25s ease-out;
   }
@@ -191,14 +183,10 @@ body {
   .text1-div{
 
   position: absolute;
-  min-width: 600px;
-  min-height: 36px;
-  left: -700px;
-  top: 161px;
-  right:0;
-   
-  margin-left:auto;
-  margin-right:auto;
+  max-width: 600px;
+  max-height: 36px;
+  left: 73px;
+  top: 131px;
   text-align-last: center;
   font-family: 'Muli', sans-serif;
   font-style: normal;
@@ -217,13 +205,9 @@ body {
     position: absolute;
     width: 360px;
     height: 38px;
-    left: -710px;
-    top: 215px;
+    left: 142px;
+    top: 185px;
     text-align-last: center;
-    right:0;
-   
-    margin-left:auto;
-    margin-right:auto;
 
     font-family: 'Muli', sans-serif;
     font-style: normal;
@@ -240,8 +224,8 @@ body {
       position: absolute;
       width: 478px;
       height: 44px;
-      left: -708px;
-      top: 330px;
+      left: 78px;
+      top: 300px;
       text-align-last: center;
 
       font-family: 'Muli', sans-serif;
@@ -249,10 +233,6 @@ body {
       font-weight: 400;
       font-size: 32px;
       line-height: 36px;
-      right:0;
-   
-      margin-left:auto;
-      margin-right:auto;
 
       color: #FFFFFF;
       }
@@ -261,17 +241,13 @@ body {
         position: absolute;
         width: 537px;
         height: 80px;
-        left: -610px;
-        top: 630px;
-        right:0;
-   
-        margin-left:auto;
-        margin-right:auto;
+        left: 50px;
+        top: 600px;
         
         font-family: 'Quicksand', sans-serif;
         font-style: normal;
         font-weight: 700;
-        font-size: 40px;
+        font-size: 32px;
         line-height: 36px;
         
         color: #FFFFFF;
@@ -283,12 +259,8 @@ body {
           position: absolute;
           width: 401px;
           height: 112px;
-          left: -396px; 
+          left: 286px; /* -50 */
           top: 855px;
-          right:0;
-   
-          margin-left:auto;
-          margin-right:auto;
 
           font-family: 'Quicksand', sans-serif;
           font-style: normal;
@@ -306,12 +278,8 @@ body {
             position: absolute;
             width: 401px;
             height: 112px;
-            left: 383px;
-            top: 1235px;
-            right:0;
-   
-            margin-left:auto;
-            margin-right:auto;
+            left: 683px;
+            top: 1230px;
 
             font-family: 'Quicksand', sans-serif;
             font-style: normal;
@@ -330,12 +298,8 @@ body {
               position: absolute;
               width: 401px;
               height: 112px;
-              left: -396px; 
+              left: 286px;
               top: 1687px;
-              right:0;
-   
-              margin-left:auto;
-              margin-right:auto;
 
               font-family: 'Quicksand', sans-serif;
               font-style: normal;
@@ -354,12 +318,9 @@ body {
                 position: absolute;
                 width: 401px;
                 height: 112px;
-                left: 383px;
+                left: 687px;
                 top: 2093px;
-                right:0;
-   
-                margin-left:auto;
-                margin-right:auto;
+
                 font-family: 'Quicksand', sans-serif;
                 font-style: normal;
                 font-weight: 700;
@@ -373,13 +334,15 @@ body {
 
 
 
+
+
+
   .rectangle1-div {
     box-sizing: border-box;
 
     position: absolute;
-    min-width: 1465px;
+    width: 1465px;
     height: 49px;
-    width:100%;
     left: -10px;
     top: 0px;
     font-family: 'Muli', sans-serif;
@@ -390,54 +353,40 @@ body {
   }
 
   .rectangle2-div {
-    
+    box-sizing: border-box;
     z-index:-1; /*position of rectangle send to back*/
 
     position: absolute;
-    min-height: 997px;
-    height:50%;
-    min-width: 4453px;
-    width:100%;
-    left: -997px;
-    top: -53px;
-    right:0;
-   
-    margin-left:auto;
-    margin-right:auto;
-
+    width: 550px;
+    height: 1443px;
+    left: 430px;
     top: -455px;
-    background: linear-gradient(90deg, #040404 6.04%, rgba(0.25, 0.25, 0.25, 0.25) 80%);
     
+    background: linear-gradient(180deg, #040404 26.04%, rgba(0, 0, 0, 0.25) 100%);
     
-   
+    backdrop-filter: blur(4px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    transform: rotate(-90deg);
   }
 
 
-  .rectangle3-div { /*THE ANSWER!*/ 
-    
-    left: -385px;
-    top: 756px;
-    background: whitesmoke;
-
+  .rectangle3-div {
+    position: absolute;
     width: 582px;
     height: 309px;
-    position:absolute;
-    right:0;
-   
-    margin-left:auto;
-    margin-right:auto;
+    left: 195px;
+    top: 756px;
+
+    background: whitesmoke;
   }
 
   .rectangle4-div {
     position: absolute;
     width: 582px;
     height: 309px;
-    left: 376px;
+    left: 586px;
     top: 1172px;
-    right:0;
-   
-    margin-left:auto;
-    margin-right:auto;
 
     background: whitesmoke;
   }
@@ -446,49 +395,37 @@ body {
     position: absolute;
     width: 582px;
     height: 309px;
-    left: -385px;
+    left: 195px;
     top: 1588px;
-    right:0;
-   
-    margin-left:auto;
-    margin-right:auto;
 
     background: whitesmoke;
   }
 
-  .rectangle6-div
-   {
+  .rectangle6-div {
     position: absolute;
     width: 582px;
     height: 309px;
-    left: 376px;
+    left: 586px;
     top: 2004px;
-    right:0;
-   
-    margin-left:auto;
-    margin-right:auto;
-    
+
     background: whitesmoke;
   } 
 
 
   .recpic1-div{
     position: absolute;
-    left: 765px;
+    
+    left: 775px;
     top: 756px;
-    
-    right:0;
-    
-    margin-left:auto;
-    margin-right:auto;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:0 auto;
   }
 
   .imgVs{
     position: absolute;
-    right:0;
-    left:-1300px;
-    margin-left:auto;
-    margin-right:auto;
+    left: 100px;
     top: 0px;
     max-width: 100px;
     max-height: 50px
@@ -496,26 +433,17 @@ body {
   }
 
   .imgcomserve{
-    position: absolute;
-    left: -205px;
     width: 391px;
     height: 309px;
-    right:0;
-    margin-left:auto;
-    margin-right:auto;
 
   }
 
   .imglinkedln{
     position: absolute;
-    left: 880px;
+    left: 1080px;
     top: 9px;
     max-width: 60px;
     max-height: 30px;
-    right:0;
-   
-    margin-left:auto;
-    margin-right:auto;
     
 
   }
@@ -530,12 +458,8 @@ body {
   
 
   .imgfacebook{
-    right:0;
-   
-    margin-left:auto;
-    margin-right:auto;
     position: absolute;
-    left: 1020px;
+    left: 1140px;
     top: 8px;
     max-width: 80px;
     max-height: 35px;
@@ -550,103 +474,83 @@ body {
   }
   .recpic2-div {
     position: absolute;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:0 auto;
     
-    right:0;
-   
-    margin-left:auto;
-    margin-right:auto;
-    
-    left: 185px;
+    left: 195px;
     top: 1172px;
 
     
   }
 
-  .imgcoding{
-    position: absolute;
-    
-    right:0;
-    left: -765px;
-    margin-left:auto;
-    margin-right:auto;
+  .imgtesting{
     width: 391px;
     height: 309px;
-  }
 
+  }
 
   .recpic3-div {
     position: absolute;
-    right:0;
-    margin-left:auto;
-    margin-right:auto;
-
-    left: 767px;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:0 auto;
+    
+    left: 777px;
     top: 1588px;
   }
 
-  .imgtesting{
-    position: absolute;
+
+  .imgcoding{
     width: 391px;
     height: 309px;
-    left: -207px;
-    right:0;
-    margin-left:auto;
-    margin-right:auto;
-
   }
-
 
   .recpic4-div {
     position: absolute;
-    right:0;
-    margin-left:auto;
-    margin-right:auto;
-  
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin:0 auto;
     
-    left: 185px;
+    left: 195px;
     top: 2004px;
 
     
   }
 
   .imgarduino{
-    position: absolute;
+    
     min-width: 391px;
     max-height: 309px;
-    right:0;
-    margin-left:auto;
-    margin-right:auto;
-    left: -765px;
   }
 
   
   .picture1-div {
     z-index:-4;
 
-    left: 0;
+    left: 200px;
     top: -100px;
-    position:relative;
-    right:0;
-   
-    margin-left:auto;
-    margin-right:auto;
+
     
    
     background-repeat: no-repeat;
     box-sizing: border-box;
 
-   
+    position: absolute;
     
     background-position: center center;
     text-align:center;
-   
+    margin:auto;
+    padding:0;
   
   }
 
 
   .imgpcb{
     min-width: 1364px;
-    width:100%;
     max-height: 641px;
   }
 
@@ -655,12 +559,8 @@ body {
     position: absolute;
     width: 413px;
     height: 490px;
-    left: 550px;
+    left: 750px;
     top: 52px;
-    right:0;
-   
-    margin-left:auto;
-    margin-right:auto;
    
     
     background: url(chosen_13_BOCANOG_VERLANNE_PAUL_89201-removebg-preview.png);
@@ -668,23 +568,17 @@ body {
 
 
   .btn-hover {
-
-    position: relative;
-    right:0;
    
-    margin-left:auto;
-    margin-right:auto;
     width: 200px;
     font-size: 16px;
     font-weight: 600;
-
-    left: 570px;
+    left: 170px;
     top: 440px;
     color: #fff;
-    
+    margin: 20px;
     height: 55px;
-  
-   
+    text-align:center;
+    border: none;
     background-size: 300% 100%;
     cursor: pointer;
     font-family: 'Muli', sans-serif;
@@ -714,16 +608,12 @@ body {
 
 
 .btn-hover.color-8 {
-  right:0;
-   
-  margin-left:auto;
-  margin-right:auto;
 
   position: absolute;
   width: 289px;
   height: 35px;
-  left: -720px;
-  top: 390px;
+  left: 145px;
+  top: 350px;
   background-image: linear-gradient(to right, #29323c, #485563, #202020, #8C0D07);
   box-shadow: 0 4px 15px 0 rgba(11, 12, 12, 0.75);
   
@@ -760,54 +650,19 @@ body {
   }*/
 
 
-  @media only screen and (min-width:800px) {
+  @media only screen and (max-width:800px) {
     /* For tablets: */
-    .html {
+    .body {
       width: 80%;
       padding: 0;
     }
-    .body {
+    .right {
       width: 100%;
     }
   }
   @media only screen and (max-width:500px) {
     /* For mobile phones: */
-    .html {
+    .menu, .body, .right {
       width: 100%;
     }}
-
-    @media screen and (max-width: 768px) {
-      /*For Laptops*/
-          .html {
-              width: 738px;
-          }
-      }
-      
-      @media screen and (max-width: 992px) {
-      /*For Large Laptops*/
-          .html {
-              width: 962px;
-          }
-      }
-      
-      @media screen and (max-width: 1280px) {
-      /*For Big TV's (HD Screens) */
-          .html {
-              width: 1250px;
-          }
-      }
-      
-      
-      @media screen and (max-width: 1920px) {
-      /*For Projectors or Higher Resolution Screens (Full HD)*/
-          .html {
-              width: 1890px;
-          }
-      }
-      @media screen and (max-width: 3840px) {
-      /*For 4K Displays (Ultra HD)*/
-          .html {
-              width: 3810px;
-          }
-      }
 
