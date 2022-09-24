@@ -14,16 +14,11 @@ html{
   overflow-x: hidden;
 }
 
-html,body { 
-
-  margin: auto center;
-} 
-
-
 
 html{
   overflow-x: hidden;
   margin: 0 auto;
+  padding:0;
 }
 
 
@@ -183,8 +178,8 @@ body {
   .text1-div{
 
   position: absolute;
-  max-width: 600px;
-  max-height: 36px;
+  width: 600px;
+  height: 36px;
   left: 73px;
   top: 131px;
   text-align-last: center;
