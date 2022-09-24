@@ -415,13 +415,13 @@ body {
 
   .rectangle3-div { /*THE ANSWER!*/ 
     
-    left: -205px;
+    left: -385px;
     top: 756px;
     background: whitesmoke;
 
     width: 582px;
     height: 309px;
-    position:relative;
+    position:absolute;
     right:0;
    
     margin-left:auto;
@@ -624,7 +624,7 @@ body {
     z-index:-4;
 
     left: 0;
-    top: -408px;
+    top: -100px;
     position:relative;
     right:0;
    
