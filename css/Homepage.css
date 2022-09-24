@@ -762,32 +762,1151 @@ body {
 
   @media only screen and (min-width:800px) {
     /* For tablets: */
-    .html {
-      width: 80%;
-      padding: 0;
+    .homebutton {
+    
+      width:90%;
+      height:90%;
+
+      
     }
-    .body {
-      width: 100%;
+  
+    .homebutton:after {
+      width:90%;
+      height:90%;
     }
+    
+  
+  
+    .homebutton:hover:after {
+      transform: scaleX(1);
+      transform-origin: bottom center;
+    }
+  
+  
+  
+    .certificationbutton{
+     
+      width:90%;
+      height:90%;
+    }
+  
+    .certificationbutton:after {
+      width:90%;
+      height:90%;
+    }
+    
+  
+  
+    .certificationbutton:hover:after {
+      transform: scaleX(1);
+      transform-origin: bottom center;
+    }
+  
+   
+    .worksbutton{
+  
+      width:90%;
+      height:90%;
+      
+      
+     
+      
+    }
+  
+  
+    .worksbutton:after {
+      width:90%;
+      height:90%;
+    }
+    
+  
+  
+    .worksbutton:hover:after {
+      transform: scaleX(1);
+      transform-origin: bottom center;
+    }
+  
+    .text1-div{
+  
+      width:90%;
+      height:90%;
+    }
+  
+  
+    .text2-div{
+  
+      width:90%;
+      height:90%;
+      }
+  
+  
+      .text3-div{
+  
+        width:90%;
+        height:90%;
+        }
+    
+        .text4-div{
+          width:90%;
+      height:90%;
+          }
+  
+  
+          .text5-div{
+            width:90%;
+            height:90%;
+  
+            }
+  
+            .text6-div{
+              width:90%;
+              height:90%;
+  
+              }
+    
+  
+              .text7-div{
+                width:90%;
+                height:90%;
+    
+                }
+  
+  
+                .text8-div{
+                  width:90%;
+                  height:90%;
+                  }
+    
+  
+  
+  
+    .rectangle1-div {
+      width:90%;
+      height:90%;
+      
+      
+    }
+  
+    .rectangle2-div {
+      
+      width:90%;
+      height:90%;
+      
+      
+     
+    }
+  
+  
+    .rectangle3-div { /*THE ANSWER!*/ 
+      
+      width:90%;
+      height:90%;
+    }
+  
+    .rectangle4-div {
+      width:90%;
+      height:90%;
+    }
+  
+    .rectangle5-div {
+      width:90%;
+      height:90%;
+    }
+  
+    .rectangle6-div
+     {
+      width:90%;
+      height:90%;
+    } 
+  
+  
+    .recpic1-div{
+      width:90%;
+      height:90%;
+    }
+  
+    .imgVs{
+      width:90%;
+      height:90%;
+  
+    }
+  
+    .imgcomserve{
+      width:90%;
+      height:90%;
+  
+    }
+  
+    .imglinkedln{
+      width:90%;
+      height:90%;
+  
+    }
+  
+  
+    .imglinkedln:hover{
+      
+      
+        transform: rotate(0deg) skew(0deg) translate(0, -2px);
+    }
+  
+    
+  
+    .imgfacebook{
+      width:90%;
+      height:90%;
+      
+  
+    }
+   
+    .imgfacebook:hover{
+      
+      transform: rotate(0deg) skew(0deg) translate(0, -2px);
+  
+    }
+    .recpic2-div {
+      width:90%;
+      height:90%;
+  
+      
+    }
+  
+    .imgcoding{
+      width:90%;
+      height:90%;
+    }
+  
+  
+    .recpic3-div {
+      width:90%;
+      height:90%;
+    }
+  
+    .imgtesting{
+      width:90%;
+      height:90%;
+  
+    }
+  
+  
+    .recpic4-div {
+      width:90%;
+      height:90%;
+  
+      
+    }
+  
+    .imgarduino{
+      width:90%;
+      height:90%;
+    }
+  
+    
+    .picture1-div {
+      width:90%;
+      height:90%;
+    
+    }
+  
+  
+    .imgpcb{
+      width:90%;
+      height:90%;
+    }
+  
+  
+    .picture2-div {
+      width:90%;
+      height:90%;
+    }
+  
+  
+    .btn-hover {
+  
+      width:90%;
+      height:90%;
+  }
+  
+  .btn-hover:hover {
+      background-position: 100% 0;
+      -moz-transition: all .4s ease-in-out;
+      -o-transition: all .4s ease-in-out;
+      -webkit-transition: all .4s ease-in-out;
+      transition: all .4s ease-in-out;
+  }
+  
+  .btn-hover:focus {
+      outline: none;
+  }
+  
+  
+  .btn-hover.color-8 {
+    width:90%;
+      height:90%;
+    
+  }
+  
+  
+  
   }
   @media only screen and (max-width:500px) {
     /* For mobile phones: */
-    .html {
-      width: 100%;
-    }}
+    .homebutton {
+    
+      width:90%;
+      height:90%;
+
+      
+    }
+  
+    .homebutton:after {
+      width:90%;
+      height:90%;
+    }
+    
+  
+  
+    .homebutton:hover:after {
+      transform: scaleX(1);
+      transform-origin: bottom center;
+    }
+  
+  
+  
+    .certificationbutton{
+     
+      width:90%;
+      height:90%;
+    }
+  
+    .certificationbutton:after {
+      width:90%;
+      height:90%;
+    }
+    
+  
+  
+    .certificationbutton:hover:after {
+      transform: scaleX(1);
+      transform-origin: bottom center;
+    }
+  
+   
+    .worksbutton{
+  
+      width:90%;
+      height:90%;
+      
+      
+     
+      
+    }
+  
+  
+    .worksbutton:after {
+      width:90%;
+      height:90%;
+    }
+    
+  
+  
+    .worksbutton:hover:after {
+      transform: scaleX(1);
+      transform-origin: bottom center;
+    }
+  
+    .text1-div{
+  
+      width:90%;
+      height:90%;
+    }
+  
+  
+    .text2-div{
+  
+      width:90%;
+      height:90%;
+      }
+  
+  
+      .text3-div{
+  
+        width:90%;
+        height:90%;
+        }
+    
+        .text4-div{
+          width:90%;
+      height:90%;
+          }
+  
+  
+          .text5-div{
+            width:90%;
+            height:90%;
+  
+            }
+  
+            .text6-div{
+              width:90%;
+              height:90%;
+  
+              }
+    
+  
+              .text7-div{
+                width:90%;
+                height:90%;
+    
+                }
+  
+  
+                .text8-div{
+                  width:90%;
+                  height:90%;
+                  }
+    
+  
+  
+  
+    .rectangle1-div {
+      width:90%;
+      height:90%;
+      
+      
+    }
+  
+    .rectangle2-div {
+      
+      width:90%;
+      height:90%;
+      
+      
+     
+    }
+  
+  
+    .rectangle3-div { /*THE ANSWER!*/ 
+      
+      width:90%;
+      height:90%;
+    }
+  
+    .rectangle4-div {
+      width:90%;
+      height:90%;
+    }
+  
+    .rectangle5-div {
+      width:90%;
+      height:90%;
+    }
+  
+    .rectangle6-div
+     {
+      width:90%;
+      height:90%;
+    } 
+  
+  
+    .recpic1-div{
+      width:90%;
+      height:90%;
+    }
+  
+    .imgVs{
+      width:90%;
+      height:90%;
+  
+    }
+  
+    .imgcomserve{
+      width:90%;
+      height:90%;
+  
+    }
+  
+    .imglinkedln{
+      width:90%;
+      height:90%;
+  
+    }
+  
+  
+    .imglinkedln:hover{
+      
+      
+        transform: rotate(0deg) skew(0deg) translate(0, -2px);
+    }
+  
+    
+  
+    .imgfacebook{
+      width:90%;
+      height:90%;
+      
+  
+    }
+   
+    .imgfacebook:hover{
+      
+      transform: rotate(0deg) skew(0deg) translate(0, -2px);
+  
+    }
+    .recpic2-div {
+      width:90%;
+      height:90%;
+  
+      
+    }
+  
+    .imgcoding{
+      width:90%;
+      height:90%;
+    }
+  
+  
+    .recpic3-div {
+      width:90%;
+      height:90%;
+    }
+  
+    .imgtesting{
+      width:90%;
+      height:90%;
+  
+    }
+  
+  
+    .recpic4-div {
+      width:90%;
+      height:90%;
+  
+      
+    }
+  
+    .imgarduino{
+      width:90%;
+      height:90%;
+    }
+  
+    
+    .picture1-div {
+      width:90%;
+      height:90%;
+    
+    }
+  
+  
+    .imgpcb{
+      width:90%;
+      height:90%;
+    }
+  
+  
+    .picture2-div {
+      width:90%;
+      height:90%;
+    }
+  
+  
+    .btn-hover {
+  
+      width:90%;
+      height:90%;
+  }
+  
+  .btn-hover:hover {
+      background-position: 100% 0;
+      -moz-transition: all .4s ease-in-out;
+      -o-transition: all .4s ease-in-out;
+      -webkit-transition: all .4s ease-in-out;
+      transition: all .4s ease-in-out;
+  }
+  
+  .btn-hover:focus {
+      outline: none;
+  }
+  
+  
+  .btn-hover.color-8 {
+    width:90%;
+      height:90%;
+    
+  }}
 
     @media screen and (max-width: 768px) {
       /*For Laptops*/
-          .html {
-              width: 738px;
+      .homebutton {
+    
+        width:90%;
+        height:90%;
+  
+        
+      }
+    
+      .homebutton:after {
+        width:90%;
+        height:90%;
+      }
+      
+    
+    
+      .homebutton:hover:after {
+        transform: scaleX(1);
+        transform-origin: bottom center;
+      }
+    
+    
+    
+      .certificationbutton{
+       
+        width:90%;
+        height:90%;
+      }
+    
+      .certificationbutton:after {
+        width:90%;
+        height:90%;
+      }
+      
+    
+    
+      .certificationbutton:hover:after {
+        transform: scaleX(1);
+        transform-origin: bottom center;
+      }
+    
+     
+      .worksbutton{
+    
+        width:90%;
+        height:90%;
+        
+        
+       
+        
+      }
+    
+    
+      .worksbutton:after {
+        width:90%;
+        height:90%;
+      }
+      
+    
+    
+      .worksbutton:hover:after {
+        transform: scaleX(1);
+        transform-origin: bottom center;
+      }
+    
+      .text1-div{
+    
+        width:90%;
+        height:90%;
+      }
+    
+    
+      .text2-div{
+    
+        width:90%;
+        height:90%;
+        }
+    
+    
+        .text3-div{
+    
+          width:90%;
+          height:90%;
           }
+      
+          .text4-div{
+            width:90%;
+        height:90%;
+            }
+    
+    
+            .text5-div{
+              width:90%;
+              height:90%;
+    
+              }
+    
+              .text6-div{
+                width:90%;
+                height:90%;
+    
+                }
+      
+    
+                .text7-div{
+                  width:90%;
+                  height:90%;
+      
+                  }
+    
+    
+                  .text8-div{
+                    width:90%;
+                    height:90%;
+                    }
+      
+    
+    
+    
+      .rectangle1-div {
+        width:90%;
+        height:90%;
+        
+        
+      }
+    
+      .rectangle2-div {
+        
+        width:90%;
+        height:90%;
+        
+        
+       
+      }
+    
+    
+      .rectangle3-div { /*THE ANSWER!*/ 
+        
+        width:90%;
+        height:90%;
+      }
+    
+      .rectangle4-div {
+        width:90%;
+        height:90%;
+      }
+    
+      .rectangle5-div {
+        width:90%;
+        height:90%;
+      }
+    
+      .rectangle6-div
+       {
+        width:90%;
+        height:90%;
+      } 
+    
+    
+      .recpic1-div{
+        width:90%;
+        height:90%;
+      }
+    
+      .imgVs{
+        width:90%;
+        height:90%;
+    
+      }
+    
+      .imgcomserve{
+        width:90%;
+        height:90%;
+    
+      }
+    
+      .imglinkedln{
+        width:90%;
+        height:90%;
+    
+      }
+    
+    
+      .imglinkedln:hover{
+        
+        
+          transform: rotate(0deg) skew(0deg) translate(0, -2px);
+      }
+    
+      
+    
+      .imgfacebook{
+        width:90%;
+        height:90%;
+        
+    
+      }
+     
+      .imgfacebook:hover{
+        
+        transform: rotate(0deg) skew(0deg) translate(0, -2px);
+    
+      }
+      .recpic2-div {
+        width:90%;
+        height:90%;
+    
+        
+      }
+    
+      .imgcoding{
+        width:90%;
+        height:90%;
+      }
+    
+    
+      .recpic3-div {
+        width:90%;
+        height:90%;
+      }
+    
+      .imgtesting{
+        width:90%;
+        height:90%;
+    
+      }
+    
+    
+      .recpic4-div {
+        width:90%;
+        height:90%;
+    
+        
+      }
+    
+      .imgarduino{
+        width:90%;
+        height:90%;
+      }
+    
+      
+      .picture1-div {
+        width:90%;
+        height:90%;
+      
+      }
+    
+    
+      .imgpcb{
+        width:90%;
+        height:90%;
+      }
+    
+    
+      .picture2-div {
+        width:90%;
+        height:90%;
+      }
+    
+    
+      .btn-hover {
+    
+        width:90%;
+        height:90%;
+    }
+    
+    .btn-hover:hover {
+        background-position: 100% 0;
+        -moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+    }
+    
+    .btn-hover:focus {
+        outline: none;
+    }
+    
+    
+    .btn-hover.color-8 {
+      width:90%;
+        height:90%;
+      
+    }
       }
       
       @media screen and (max-width: 992px) {
       /*For Large Laptops*/
-          .html {
-              width: 962px;
+      .homebutton {
+    
+        width:90%;
+        height:90%;
+  
+        
+      }
+    
+      .homebutton:after {
+        width:90%;
+        height:90%;
+      }
+      
+    
+    
+      .homebutton:hover:after {
+        transform: scaleX(1);
+        transform-origin: bottom center;
+      }
+    
+    
+    
+      .certificationbutton{
+       
+        width:90%;
+        height:90%;
+      }
+    
+      .certificationbutton:after {
+        width:90%;
+        height:90%;
+      }
+      
+    
+    
+      .certificationbutton:hover:after {
+        transform: scaleX(1);
+        transform-origin: bottom center;
+      }
+    
+     
+      .worksbutton{
+    
+        width:90%;
+        height:90%;
+        
+        
+       
+        
+      }
+    
+    
+      .worksbutton:after {
+        width:90%;
+        height:90%;
+      }
+      
+    
+    
+      .worksbutton:hover:after {
+        transform: scaleX(1);
+        transform-origin: bottom center;
+      }
+    
+      .text1-div{
+    
+        width:90%;
+        height:90%;
+      }
+    
+    
+      .text2-div{
+    
+        width:90%;
+        height:90%;
+        }
+    
+    
+        .text3-div{
+    
+          width:90%;
+          height:90%;
           }
+      
+          .text4-div{
+            width:90%;
+        height:90%;
+            }
+    
+    
+            .text5-div{
+              width:90%;
+              height:90%;
+    
+              }
+    
+              .text6-div{
+                width:90%;
+                height:90%;
+    
+                }
+      
+    
+                .text7-div{
+                  width:90%;
+                  height:90%;
+      
+                  }
+    
+    
+                  .text8-div{
+                    width:90%;
+                    height:90%;
+                    }
+      
+    
+    
+    
+      .rectangle1-div {
+        width:90%;
+        height:90%;
+        
+        
+      }
+    
+      .rectangle2-div {
+        
+        width:90%;
+        height:90%;
+        
+        
+       
+      }
+    
+    
+      .rectangle3-div { /*THE ANSWER!*/ 
+        
+        width:90%;
+        height:90%;
+      }
+    
+      .rectangle4-div {
+        width:90%;
+        height:90%;
+      }
+    
+      .rectangle5-div {
+        width:90%;
+        height:90%;
+      }
+    
+      .rectangle6-div
+       {
+        width:90%;
+        height:90%;
+      } 
+    
+    
+      .recpic1-div{
+        width:90%;
+        height:90%;
+      }
+    
+      .imgVs{
+        width:90%;
+        height:90%;
+    
+      }
+    
+      .imgcomserve{
+        width:90%;
+        height:90%;
+    
+      }
+    
+      .imglinkedln{
+        width:90%;
+        height:90%;
+    
+      }
+    
+    
+      .imglinkedln:hover{
+        
+        
+          transform: rotate(0deg) skew(0deg) translate(0, -2px);
+      }
+    
+      
+    
+      .imgfacebook{
+        width:90%;
+        height:90%;
+        
+    
+      }
+     
+      .imgfacebook:hover{
+        
+        transform: rotate(0deg) skew(0deg) translate(0, -2px);
+    
+      }
+      .recpic2-div {
+        width:90%;
+        height:90%;
+    
+        
+      }
+    
+      .imgcoding{
+        width:90%;
+        height:90%;
+      }
+    
+    
+      .recpic3-div {
+        width:90%;
+        height:90%;
+      }
+    
+      .imgtesting{
+        width:90%;
+        height:90%;
+    
+      }
+    
+    
+      .recpic4-div {
+        width:90%;
+        height:90%;
+    
+        
+      }
+    
+      .imgarduino{
+        width:90%;
+        height:90%;
+      }
+    
+      
+      .picture1-div {
+        width:90%;
+        height:90%;
+      
+      }
+    
+    
+      .imgpcb{
+        width:90%;
+        height:90%;
+      }
+    
+    
+      .picture2-div {
+        width:90%;
+        height:90%;
+      }
+    
+    
+      .btn-hover {
+    
+        width:90%;
+        height:90%;
+    }
+    
+    .btn-hover:hover {
+        background-position: 100% 0;
+        -moz-transition: all .4s ease-in-out;
+        -o-transition: all .4s ease-in-out;
+        -webkit-transition: all .4s ease-in-out;
+        transition: all .4s ease-in-out;
+    }
+    
+    .btn-hover:focus {
+        outline: none;
+    }
+    
+    
+    .btn-hover.color-8 {
+      width:90%;
+        height:90%;
+      
+    }
       }
       
       @media screen and (max-width: 1280px) {
