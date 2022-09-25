@@ -209,24 +209,23 @@ video{
 
 }
 
-    .rectangle1-div {
-        box-sizing: border-box;
-    
-        position: absolute;
-        min-width: 1465px;
-        height: 49px;
-        left: -10px;
-        top: 0px;
-        font-family: Tahoma;
-        align-items: center;
-        display: flex;
-   
-      
-        background-color: black;
-        
-        backdrop-filter: blur(5px);
-      }
+.rectangle1-div {
 
+  box-sizing: border-box;
+
+  position: absolute;
+  height: 49px;
+  left: -10px;
+  top: 0px;
+  font-family: 'Muli', sans-serif;
+
+  min-width: 6465px;
+  width:100%;
+ 
+  background-color: Black;
+  
+  
+}
 
 
     .homebutton {
@@ -419,37 +418,37 @@ video{
                 }
                 @media only screen and (max-width:800px) {
                   /* For tablets: */
-                  .main {
+                  .html {
                     width: 80%;
                     padding: 0;
                   }
-                  .right {
+                  .body {
                     width: 100%;
                   }
                 }
                 @media only screen and (max-width:500px) {
                   /* For mobile phones: */
-                  .menu, .main, .right {
+                  .html {
                     width: 100%;
                   }}
 
                   @media screen and (min-width: 768px) {
                     /*For Laptops*/
-                        .container {
+                        .html {
                             width: 738px;
                         }
                     }
                     
                     @media screen and (min-width: 992px) {
                     /*For Large Laptops*/
-                        .container {
+                        .html {
                             width: 962px;
                         }
                     }
                     
                     @media screen and (min-width: 1280px) {
                     /*For Big TV's (HD Screens) */
-                        .container {
+                        .html {
                             width: 1250px;
                         }
                     }
@@ -457,15 +456,14 @@ video{
                     
                     @media screen and (min-width: 1920px) {
                     /*For Projectors or Higher Resolution Screens (Full HD)*/
-                        .container {
+                        .html {
                             width: 1890px;
                         }
                     }
                     @media screen and (min-width: 3840px) {
                     /*For 4K Displays (Ultra HD)*/
-                        .container {
+                        .html {
                             width: 3810px;
                         }
                     }
-
                
