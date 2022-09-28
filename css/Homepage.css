@@ -16,7 +16,7 @@ html{
 }
 
 body {
-    text-align: center!important;
+    text-align: center;
     height:2500px;
     width:1366px;
     background: #131313; 
@@ -267,7 +267,7 @@ body {
   left:0px;
   right:0px;
   
-  margin:0 auto!important;
+  margin:0 auto;
   
 
 
