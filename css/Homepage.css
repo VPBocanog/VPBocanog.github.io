@@ -11,16 +11,14 @@
 }
 
 html{
+  
   overflow-x: hidden;
 }
 
 body {
-   
-    height: 2500px;
-    min-width: 1366px;
-    width:100%;
-   
-    overflow-x: hidden;
+    text-align: center;
+    height:2500px;
+    
     background: #131313; 
   }
 
@@ -30,9 +28,9 @@ body {
     box-sizing: border-box;
     position: absolute;
     height: 49px;
-    left: -10px;
+    left: 0px;
     top: 0px;
-    min-width: 1475px;
+    min-width: 1366px;
     width:110%;
     text-align: center;
     align-items: center;
@@ -260,7 +258,7 @@ body {
 
   box-sizing: border-box;
   min-width: 1465px;
-  width:100%;
+  width:110%;
 
   position: absolute;
   left:0px;
@@ -378,28 +376,40 @@ body {
 
 .container3-div{
   
-  text-align: center;
-  align-items: center;
+  
   box-sizing: border-box;
-  padding:0;
-  display:block;
+
+
   position: absolute;
   min-width: 1465px;
   width:100%;
   top: 756px;
-  left:0px;
+  left:0;
   background-color:#131313;
-  margin: 0 auto;
+
+  text-align: center;
+  align-items: center;
+  display:block;
+    
+  margin:0 auto;
+  padding:0;
+ 
  
 
 }
   
   .childrec3-div {
+
     position: relative;
-    width: 582px;
+    max-width: 582px;
+    width:100%;
     height: 309px;
-    margin:0 auto;
+    
     left:-248px;
+    margin-left:auto;
+    margin-right: auto;
+    right: 0;
+    
     display:flex;
     align-items: center;
     font-family: 'Quicksand', sans-serif;
@@ -514,6 +524,7 @@ body {
 
 
   .recpic1-div{
+    
     position: relative;
     left:42px;
     top: 28px;
@@ -600,7 +611,7 @@ body {
     left: 0px;
     top: -100px;
 
-    min-width: 1465px;
+    min-width: 1366px;
     width:100%;
    
     
@@ -611,14 +622,14 @@ body {
     
     background-position: center center;
     text-align:center;
-    margin:auto;
+    margin:0 auto;
     padding:0;
   
   }
 
 
   .imgpcb{
-    min-width: 1465px;
+    min-width: 1366px;
     width:100%;
     height: 641px;
     
@@ -723,11 +734,10 @@ body {
   }*/
 
 
-  @media only screen and (max-width:800px) {
+  @media only screen and (max-width:90vw) {
     /* For tablets: */
-    .body {
-      width: 80%;
-      padding: 0;
+    .html {
+      zoom: 80%;
     }
     
   }
