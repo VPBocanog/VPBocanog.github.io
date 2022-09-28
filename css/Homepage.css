@@ -408,7 +408,7 @@ body {
     width:100%;
     height: 309px;
     
-    left:-248px;
+    left:-263px;
     margin-left:auto;
     margin-right: auto;
     right: 0;
@@ -446,7 +446,7 @@ body {
     width: 582px;
     height: 309px;
     margin: 0 auto;
-    left:-248px;
+    left:-263px;
     display:flex;
     align-items: center;
     font-family: 'Quicksand', sans-serif;
@@ -478,7 +478,7 @@ body {
     width: 582px;
     height: 309px;
     margin: 0 auto;
-    left:-248px;
+    left:-263px;
     display:flex;
     align-items: center;
     font-family: 'Quicksand', sans-serif;
@@ -510,7 +510,7 @@ body {
     width: 582px;
     height: 309px;
     margin: 0 auto;
-    left:-248px;
+    left:-263px;
     display:flex;
     align-items: center;
     font-family: 'Quicksand', sans-serif;
@@ -529,7 +529,7 @@ body {
   .recpic1-div{
     
     position: relative;
-    left:42px;
+    left:27px;
     top: 28px;
     background-position: center center;
     background-size: cover;
@@ -550,7 +550,7 @@ body {
 
   .recpic2-div {
     position: relative;
-    left:42px;
+    left:27px;
     top: 444px;
     background-position: center center;
     background-size: cover;
@@ -570,7 +570,7 @@ body {
 
   .recpic3-div {
     position: relative;
-    left:42px;
+    left:27px;
     top: 860px;
     background-position: center center;
     background-size: cover;
@@ -594,7 +594,7 @@ body {
     background-repeat: no-repeat;
     margin:0 auto;
     
-    left:42px;
+    left:27px;
     top: 1276px;
 
     
