@@ -12,6 +12,7 @@
 
 html{
   overflow-x: hidden;
+  overflow-anchor: none;
 }
 
 body {
@@ -19,6 +20,7 @@ body {
     height:2500px;
     width:1366px;
     background: #131313; 
+    overflow-x: hidden;
     overflow-anchor: none;
   }
 
@@ -35,6 +37,7 @@ body {
     text-align: center;
     align-items: center;
     display:block;
+    overflow-anchor: none;
     
     margin:0 auto;
     padding:0;
@@ -252,7 +255,7 @@ body {
   align-items: center;
   display:block;
   height:525px;
-  
+  overflow-anchor: none;
  
   line-height: 90px; 
 
