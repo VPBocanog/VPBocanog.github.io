@@ -17,8 +17,8 @@ html{
 
 body {
     text-align: center;
-    height:2500px;
-    width:1366px;
+    width: 1366px;
+    height: 2500px;
     background: #131313; 
     overflow-x: hidden;
     overflow-anchor: none;
@@ -33,11 +33,11 @@ body {
     left: 0px;
     top: 0px;
     min-width: 1366px;
-    width:110%;
+    width:100%;
     text-align: center;
     align-items: center;
     display:block;
-    overflow-anchor: none;
+    
     
     margin:0 auto;
     padding:0;
