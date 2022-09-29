@@ -742,7 +742,7 @@ body {
     /* For mobile phones: */
 
     html{
-    transform: scale(.25); 
+    transform: scale(.50); 
     }
 
   }
