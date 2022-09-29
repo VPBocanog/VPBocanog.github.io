@@ -784,18 +784,18 @@
                             @media only screen and (max-width:90vw) {
                               /* For tablets: */
                               .html {
-                                zoom: 80%;
+                                zoom: 75%;
                               }
                               
                             }
                             @media only screen and (max-width:500px) {
                               /* For mobile phones: */
                               .html {
-                                width: 50%;
+                                width: 90%;
                               }
                             
                             
                               .body {
-                                width: 50%;
+                                width: 90%;
                               }}
                           
