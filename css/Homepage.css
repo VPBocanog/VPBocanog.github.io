@@ -10,12 +10,8 @@
   box-sizing: border-box;
 }
 
-html,body{
-  overflow-x: hidden;
-}
-
 html{
-  overflow-x: hidden;
+  overflow-x: hidden!important;
   overflow-anchor: none;
 }
 
@@ -745,18 +741,18 @@ body {
   @media only screen and (max-width:90vw) {
     /* For tablets: */
     .html {
-      zoom: 75%;
+      zoom: 80%;
     }
     
   }
   @media only screen and (max-width:500px) {
     /* For mobile phones: */
     .html {
-      width: 100%;
+      width: 50%;
     }
   
   
     .body {
-      width: 100%;
+      width: 50%;
     }}
 

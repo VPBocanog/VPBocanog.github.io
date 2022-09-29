@@ -69,7 +69,7 @@
 
   width: 172px;
   height: 51px;
-  left: -144px;
+  left: -164px;
   top: -139px;
   cursor: pointer;
   font-family: 'Muli', sans-serif;
@@ -115,7 +115,7 @@
   position: relative;
   width: 171px;
   height: 51px;
-  left: 27px;
+  left: 7px;
   top: -206px;
   text-align: center;
   background-color: rgba(0,0,0,.5);
@@ -168,7 +168,7 @@
 
   width: 172px;
   height: 49px;
-  left: 199px;
+  left: 179px;
   top: -255px;
   text-align: center;
   background-color: rgba(0,0,0,.5);
@@ -786,18 +786,18 @@
                             @media only screen and (max-width:90vw) {
                               /* For tablets: */
                               .html {
-                                zoom: 75%;
+                                zoom: 80%;
                               }
                               
                             }
                             @media only screen and (max-width:500px) {
                               /* For mobile phones: */
                               .html {
-                                width: 100%;
+                                width: 50%;
                               }
                             
                             
                               .body {
-                                width: 100%;
+                                width: 50%;
                               }}
                           
