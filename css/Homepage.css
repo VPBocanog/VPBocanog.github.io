@@ -11,12 +11,13 @@
 }
 
 html{
-  overflow-x: hidden!important;
+  overflow-x: hidden;
   overflow-anchor: none;
 }
 
 body {
     text-align: center;
+    margin:0 auto;
     min-width: 1366px;
     width:100%;
     height: 2500px;
@@ -68,8 +69,8 @@ body {
     margin:0 auto;
     width: 172px;
     height: 51px;
-    left: -165px;
-    top: -1236px;
+    left: -164px;
+    top: -500px;
     cursor: pointer;
     font-family: 'Muli', sans-serif;
     justify-content:center;
@@ -115,7 +116,7 @@ body {
     width: 171px;
     height: 51px;
     left: 7px;
-    top: -1287px;
+    top: -551px;
     text-align: center;
     background-color: rgba(0,0,0,.5);
     text-decoration:none;
@@ -167,8 +168,8 @@ body {
 
     width: 172px;
     height: 49px;
-    left: 178px;
-    top: -1337px;
+    left: 179px;
+    top: -600px;
     text-align: center;
     background-color: rgba(0,0,0,.5);
 
@@ -210,7 +211,7 @@ body {
     margin:0 auto;
     left:400px;
     
-    top: -1396px;
+    top: -645px;
     max-width: 60px;
     max-height: 30px;
     
@@ -231,7 +232,7 @@ body {
     margin:0 auto;
     left:430px;
     
-    top: -1393px;
+    top: -642px;
     max-width: 80px;
     max-height: 35px;
     
@@ -283,7 +284,7 @@ body {
   left:-280px;
   height:500px;
   
-  top: -170px;
+  top: -70px;
   line-height: 90px; 
 
   
@@ -531,7 +532,7 @@ body {
     
     position: relative;
     left:77px;
-    top: 28px;
+    top: 756px;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -552,7 +553,7 @@ body {
   .recpic2-div {
     position: relative;
     left:77px;
-    top: 444px;
+    top: 1172px;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -572,7 +573,7 @@ body {
   .recpic3-div {
     position: relative;
     left:77px;
-    top: 860px;
+    top: 1588px;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -596,7 +597,7 @@ body {
     margin:0 auto;
     
     left:77px;
-    top: 1276px;
+    top: 2004px;
 
     
   }
@@ -645,7 +646,7 @@ body {
     width: 421px;
     height: 498px;
     left: 250px;
-    top: -685px;
+    top: 43px;
     margin:0 auto;
    
     
@@ -738,15 +739,10 @@ body {
   }*/
 
 
-  @media only screen and (max-width:480px) {
-    /* For mobile: */
-    html,body {
-      width:100%;
-      height:100%;
-      margin:0;
-      padding: 0;
-      overflow-x:hidden;
-
+  @media only screen and (max-width:90vw) {
+    /* For tablets: */
+    .html {
+      zoom: 80%;
     }
     
   }
