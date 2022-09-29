@@ -50,7 +50,7 @@ body {
     
     position: relative;
     margin:0 auto;
-    left: -600px;
+    left: -540px;
     top: -15px;
     max-width: 100px;
     max-height: 50px;
@@ -67,7 +67,7 @@ body {
     margin:0 auto;
     width: 172px;
     height: 51px;
-    left: -215px;
+    left: -165px;
     top: -1236px;
     cursor: pointer;
     font-family: 'Muli', sans-serif;
@@ -113,7 +113,7 @@ body {
     position: relative;
     width: 171px;
     height: 51px;
-    left: -43px;
+    left: 7px;
     top: -1287px;
     text-align: center;
     background-color: rgba(0,0,0,.5);
@@ -166,7 +166,7 @@ body {
 
     width: 172px;
     height: 49px;
-    left: 128px;
+    left: 178px;
     top: -1337px;
     text-align: center;
     background-color: rgba(0,0,0,.5);
@@ -207,7 +207,7 @@ body {
     
    position: relative;
     margin:0 auto;
-    left:350px;
+    left:400px;
     
     top: -1396px;
     max-width: 60px;
@@ -228,7 +228,7 @@ body {
   .imgfacebook{
     position: relative;
     margin:0 auto;
-    left:380px;
+    left:430px;
     
     top: -1393px;
     max-width: 80px;
@@ -260,8 +260,8 @@ body {
   line-height: 90px; 
 
   box-sizing: border-box;
-  min-width: 1465px;
-  width:110%;
+  min-width: 1366px;
+  width:100%;
 
   position: absolute;
   left:0px;
@@ -279,7 +279,7 @@ body {
   text-align: center;
   align-items: center;
   
-  left:-330px;
+  left:-280px;
   height:500px;
   
   top: -170px;
@@ -317,7 +317,7 @@ body {
         width: 537px;
         height: 80px;
         
-       left:-350px;
+       left:-300px;
         margin: 0 auto;
         display:flex;
         align-items: center;
@@ -339,7 +339,7 @@ body {
           position: absolute;
           width: 401px;
           height: 112px;
-          left: 286px; /* -50 */
+          left: 336px; /* -50 */
           top: 855px;
 
           font-family: 'Quicksand', sans-serif;
@@ -384,7 +384,7 @@ body {
 
 
   position: absolute;
-  min-width: 1465px;
+  min-width: 1366px;
   width:100%;
   top: 756px;
   left:0;
@@ -408,7 +408,7 @@ body {
     width:100%;
     height: 309px;
     
-    left:-263px;
+    left:-213px;
     margin-left:auto;
     margin-right: auto;
     right: 0;
@@ -432,7 +432,7 @@ body {
   .container4-div{
 
     position: absolute;
-    min-width: 1465px;
+    min-width: 1366px;
     width:100%;
     top: 1172px;
     left:0px;
@@ -446,7 +446,7 @@ body {
     width: 582px;
     height: 309px;
     margin: 0 auto;
-    left:-263px;
+    left:-213px;
     display:flex;
     align-items: center;
     font-family: 'Quicksand', sans-serif;
@@ -465,7 +465,7 @@ body {
   .container5-div{
 
     position: absolute;
-    min-width: 1465px;
+    min-width: 1366px;
     width:100%;
     top: 1588px;
     left:0px;
@@ -478,7 +478,7 @@ body {
     width: 582px;
     height: 309px;
     margin: 0 auto;
-    left:-263px;
+    left:-213px;
     display:flex;
     align-items: center;
     font-family: 'Quicksand', sans-serif;
@@ -497,7 +497,7 @@ body {
   .container6-div{
 
     position: absolute;
-    min-width: 1465px;
+    min-width: 1366px;
     width:100%;
     top: 2004px;
     left:0px;
@@ -510,7 +510,7 @@ body {
     width: 582px;
     height: 309px;
     margin: 0 auto;
-    left:-263px;
+    left:-213px;
     display:flex;
     align-items: center;
     font-family: 'Quicksand', sans-serif;
@@ -529,7 +529,7 @@ body {
   .recpic1-div{
     
     position: relative;
-    left:27px;
+    left:77px;
     top: 28px;
     background-position: center center;
     background-size: cover;
@@ -550,7 +550,7 @@ body {
 
   .recpic2-div {
     position: relative;
-    left:27px;
+    left:77px;
     top: 444px;
     background-position: center center;
     background-size: cover;
@@ -570,7 +570,7 @@ body {
 
   .recpic3-div {
     position: relative;
-    left:27px;
+    left:77px;
     top: 860px;
     background-position: center center;
     background-size: cover;
@@ -594,7 +594,7 @@ body {
     background-repeat: no-repeat;
     margin:0 auto;
     
-    left:27px;
+    left:77px;
     top: 1276px;
 
     
@@ -643,7 +643,7 @@ body {
     position: relative;
     width: 421px;
     height: 498px;
-    left: 220px;
+    left: 250px;
     top: -685px;
     margin:0 auto;
    
