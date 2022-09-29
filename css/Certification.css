@@ -17,7 +17,7 @@
   }
 
   body {
-    margin: 0 auto;
+    text-align: center;
     width: 1366px;
     height: 4000px;
     background: #131313; 
@@ -68,7 +68,7 @@
   width: 172px;
   height: 51px;
   left: -169px;
-  top: -2px;
+  top: -10px;
   cursor: pointer;
   font-family: 'Muli', sans-serif;
   justify-content:center;
@@ -114,7 +114,7 @@
   width: 171px;
   height: 51px;
   left: 2px;
-  top: -53px;
+  top: -61px;
   text-align: center;
   background-color: rgba(0,0,0,.5);
   text-decoration:none;
@@ -167,7 +167,7 @@
   width: 172px;
   height: 49px;
   left: 174px;
-  top: -102px;
+  top: -110px;
   text-align: center;
   background-color: rgba(0,0,0,.5);
 
@@ -212,7 +212,7 @@
 
   position: absolute;
   min-width: 1111px;
-  width:110%;
+  width:100%;
   height: 674px;
   left: 0px;
   top: 200px;
@@ -375,7 +375,7 @@
 
                   position: absolute;
                   min-width: 1111px;
-                  width:110%;
+                  width:100%;
                   height: 674px;
                   left: 0px;
                   top: 1202px;
@@ -563,7 +563,7 @@
 
             position: absolute;
             min-width: 1111px;
-            width:110%;
+            width:100%;
             height: 674px;
             left: 0px;
             top: 2204px;
@@ -695,7 +695,7 @@
 
   position: absolute;
   min-width: 1111px;
-  width:110%;
+  width:100%;
   height: 674px;
   left: 0px;
   top: 3206px;
