@@ -44,12 +44,16 @@ body {
 
 
 .imgVs{
+  
+    
   position: relative;
-    margin:0 auto;
-    left: -600px;
-    top: -15px;
-    max-width: 100px;
-    max-height: 50px;
+  margin:0 auto;
+  left: -540px;
+  top: -49px;
+  max-width: 170px;
+  max-height: 120px;
+
+
 
 }
 
@@ -63,7 +67,7 @@ body {
   width: 172px;
   height: 51px;
   left: -164px;
-  top: -139px;
+  top: -209px;
   cursor: pointer;
   font-family: 'Muli', sans-serif;
   justify-content:center;
@@ -109,7 +113,7 @@ body {
   width: 171px;
   height: 51px;
   left: 7px;
-  top: -206px;
+  top: -276px;
   text-align: center;
   background-color: rgba(0,0,0,.5);
   text-decoration:none;
@@ -162,7 +166,7 @@ body {
   width: 172px;
   height: 49px;
   left: 179px;
-  top: -255px;
+  top: -325px;
   text-align: center;
   background-color: rgba(0,0,0,.5);
 
@@ -196,6 +200,7 @@ body {
   transform: scaleX(1);
   transform-origin: bottom center;
 }
+
 
 
 /*--------------------------------------------------*/
