@@ -54,9 +54,9 @@ body {
     position: relative;
     margin:0 auto;
     left: -540px;
-    top: 0px;
-    max-width: 100px;
-    max-height: 50px;
+    top: -35px;
+    max-width: 170px;
+    max-height: 120px;
 
   }
 
