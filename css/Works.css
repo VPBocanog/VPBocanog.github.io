@@ -11,151 +11,201 @@
 
 html{
   overflow-x: hidden;
+  overflow-anchor: none;
 }
-
 
 body {
+  text-align: center;
+  min-width: 1366px;
+  width:100%;
+  height: 1000px;
+  background: #131313; 
+  overflow-x: hidden;
+  overflow-anchor: none;
+}
+
+.header-div {
+  box-sizing: border-box;
   position: absolute;
-  max-height: 150vh;
-  width: 100%;
-  max-width: 1366px;
-  padding: 0; 
-  margin:0;
-  
-  background: #131313;
-  
-}
-  /* .container{
-    width: 100%;
-    height: 100%;
-    max-width: 700px;
-    max-height: 400px ;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    top: 150px;
-    left: 130px;
-    z-index: 20;
-
-}
-
-.container .slider{
-    position: relative;
-    top: 150px;
-    left: 210px;
-    width: 100%;
-    height: 100%;
-    min-width: 600px;
-    min-height: 300px ;
-    
-}
-
-
-.container ul{
-    position: absolute;
-    top: 550px;
-    left: 540px;
-    width: 100%;
-    height: 100%;
-    min-width: 600px;
-    max-height: 100px;
-    transform: translateX(-50%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 20;
-    
-}
-
-.container ul li{
-    list-style: none;
-    cursor: pointer;
-    margin: 10px;
-    
-}
-
-
-.container ul li video{
-    width: 200px;
-    transition: all 0.3s;
-}
-.container ul li video:hover{
-    transform: scale(1.1);
-}
-
-video{
-    width: 100%;
-    height: 100%;
-}
-
-
-.software{
-  width: 100%;
-  height: 100%;
-  max-width: 700px;
-  max-height: 400px ;
-  position: relative;
-  display: flex;
-  justify-content: center;
+  height: 49px;
+  left: 0px;
+  top: 0px;
+  min-width: 1366px;
+  width:100%;
+  text-align: center;
   align-items: center;
-  top: 150px;
-  left: 130px;
+  display:block;
+  
+  margin:0 auto;
+  padding:0;
+ 
+  background-color: black;  
+} 
+
+
+.imgVs{
+  position: relative;
+    margin:0 auto;
+    left: -600px;
+    top: -15px;
+    max-width: 100px;
+    max-height: 50px;
+
+}
+
+.homebutton {
+  position: relative;
+  font-size: medium;
+  
+
+  margin:0 auto;
+
+  width: 172px;
+  height: 51px;
+  left: -164px;
+  top: -139px;
+  cursor: pointer;
+  font-family: 'Muli', sans-serif;
+  justify-content:center;
+  align-items: center;
+  display: flex;
+  background-color: rgba(0,0,0,.5);
+  box-shadow: inset 0 0 0 0 black;
+  
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  text-decoration: none;
+  
+  color: white;
+  
+}
+
+.homebutton:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #41424C;
+  transform-origin: bottom center;
+  transition: transform 0.25s ease-out;
+}
+
+
+
+.homebutton:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom center;
+}
+
+
+
+.certificationbutton{
+ 
+  font-size: medium;
+  margin:0 auto;
+  position: relative;
+  width: 171px;
+  height: 51px;
+  left: 7px;
+  top: -206px;
+  text-align: center;
+  background-color: rgba(0,0,0,.5);
+  text-decoration:none;
+
+  font-family: 'Muli', sans-serif;
+  cursor: pointer;
+  justify-content:center;
+  align-items: center;
+  display: flex;
+  box-shadow: inset 0 0 0 0 black;
+ 
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  
+}
+
+.certificationbutton:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #41424C;
+  transform-origin: bottom center;
+  transition: transform 0.25s ease-out;
+}
+
+
+
+.certificationbutton:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom center;
+}
+
+
+.worksbutton{
+
+  font-size: medium;
+  font-family: 'Muli', sans-serif;
+  cursor: pointer;
+  justify-content:center;
+  align-items: center;
+  display: flex;
+
+  margin:0 auto;
+  position: relative;
+
+  width: 172px;
+  height: 49px;
+  left: 179px;
+  top: -255px;
+  text-align: center;
+  background-color: rgba(0,0,0,.5);
+
+  box-shadow: inset 0 0 0 0 black;
+
+  padding: 0 .25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  
+  
  
   
 }
 
-.software .slider2{
-  position: relative;
-  top: 550px;
-  left: 210px;
-  width: 100%;
-  height: 100%;
-  min-width: 600px;
-  min-height: 300px ;
-  
-}
 
-
-.software ul{
+.worksbutton:after {
+  content: '';
   position: absolute;
-  top: 700px;
-  left: 540px;
-  width: 70%;
-  height: 70%;
-  min-width: 600px;
-  max-height: 100px;
-  transform: translateX(-50%);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  z-index: 20;
-  
-}
-
-.software ul li{
-  list-style: none;
-  cursor: pointer;
-  margin: 10px;
-  
-}
-
-
-.software ul li video{
-  width: 200px;
-  transition: all 0.3s;
-}
-.software ul li video:hover{
-  transform: scale(1.1);
-}
-
-video{
   width: 100%;
-  height: 100%;
-} */
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #41424C;
+  transform-origin: bottom center;
+  transition: transform 0.25s ease-out;
+}
+
+
+
+.worksbutton:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom center;
+}
+
+
+/*--------------------------------------------------*/
+
+
 
 .carousel {
-  position: absolute;
+  position: relative;
+  margin: 0 auto;
+  left:-100px;
   top:200px;
   z-index: -1;
   
@@ -180,7 +230,7 @@ video{
   padding: 20px 0;
   position: absolute;
   bottom: 0;
-  left: 110px;
+  left: 120px;
   text-align: center;
 }
 
@@ -199,145 +249,45 @@ video{
   background: whitesmoke;
 }
 
-  
-.imgVs{
-  position: absolute;
-  left: 100px;
-  top: 0px;
-  max-width: 100px;
-  max-height: 50px
-
-}
-
-.rectangle1-div {
-
-  box-sizing: border-box;
-
-  position: absolute;
-  height: 49px;
-  left: -10px;
-  top: 0px;
-  font-family: 'Muli', sans-serif;
-
-  min-width: 6465px;
-  width:100%;
  
-  background-color: Black;
+
+
+/*--------------------------------*/
+
+
+
+
+.container1{
+
+  position: absolute;
+  text-align: center;
+  min-width: 1366px;
+  width:100%;
+  height: 60px;
+  left: -116px;
+  top: 134px;
+  margin:0 auto;
   
+  font-family: 'Quicksand', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 56px;
+  text-align: center;
   
+  color: #FFFFFF;
+
 }
-
-
-    .homebutton {
-    
-        font-size: medium;
-        position: absolute;
-        width: 172px;
-        height: 49px;
-        left: 800px;
-        top: 0px;
-        cursor: pointer;
-        font-family: 'Muli', sans-serif;
-        justify-content:center;
-        align-items: center;
-        display: flex;
-        background-color: rgba(0,0,0,.5);
-        box-shadow: inset 0 0 0 0 black;
-        margin: 0 -.25rem;
-        padding: 0 .25rem;
-        transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-        
-        
-      }
-    
-    
-      .homebutton:hover {
-        
-        box-shadow: inset 172px 0 0 0 #41424c00;
-        
-        
-      }
-    
-    
-      .certificationbutton{
-       
-        font-size: medium;
-      
-        position: absolute;
-        width: 171px;
-        height: 49px;
-        left: 972px;
-        top: 0px;
-        text-align: center;
-        background-color: rgba(0,0,0,.5);
-        text-decoration:none;
-    
-        font-family: 'Muli', sans-serif;
-        cursor: pointer;
-        justify-content:center;
-        align-items: center;
-        display: flex;
-        box-shadow: inset 0 0 0 0 black;
-        margin: 0 -.25rem;
-        padding: 0 .25rem;
-        transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-        
-      }
-    
-      .certificationbutton:hover {
-        
-        box-shadow: inset 172px 0 0 0 #41424c00;
-        
-        
-        
-      }
-
-     
-      .worksbutton{
-    
-        font-size: medium;
-        font-family: 'Muli', sans-serif;
-        cursor: pointer;
-        justify-content:center;
-        align-items: center;
-        display: flex;
-    
-        position: absolute;
-        width: 172px;
-        height: 49px;
-        left: 1143px;
-        top: 0px;
-        text-align: center;
-        background-color: rgba(0,0,0,.5);
-    
-        box-shadow: inset 0 0 0 0 black;
-        margin: 0 -.25rem;
-        padding: 0 .25rem;
-        transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
-        
-        
-       
-        
-      }
-    
-    
-       .worksbutton:hover {
-        
-        box-shadow: inset 172px 0 0 0 #41424c00;
-      
-        
-      }
-
-
 
       .text1-div{
-
-        position: absolute;
+        margin:0 auto;
+        text-align: center;
+        position: relative;
         width: 400px;
         height: 60px;
-        left: -116px;
-        top: 134px;
-        
+        left: -480px;
+        top: 0px;
+        margin:0 auto;
         font-family: 'Quicksand', sans-serif;
         font-style: normal;
         font-weight: 700;
@@ -353,69 +303,20 @@ video{
     .line1-div{
 
 
-    position: absolute;
+    position: relative;
+    text-align: center;
+    margin:0 auto;
     width: 1300px;
     height: 0px;
-    left: 13px;
-    top: 200px;
+    left: 100px;
+    top: 10px;
     z-index: 1;
 
     border: 1px solid #FFFFFF;
-
-
     }
 
 
-    .text2-div{
-    position: absolute;
-    width: 400px;
-    height: 60px;
-    left: -96px;
-    top: 186px;
-
-    font-family: 'Quicksand', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 56px;
-    text-align: center;
-
-    color: #FFFFFF;
-
-    }
-
-    
-
-        .line2-div{
-
-
-            position: absolute;
-            width: 1400px;
-            height: 0px;
-            left: -46px;
-            top: 950px;
-
-            border: 7px solid #5C5B5B;
-        
-            }
-        
-            .text3-div{
-                position: absolute;
-                width: 400px;
-                height: 60px;
-                left: -96px;
-                top: 993px;
-
-                font-family: 'Quicksand', sans-serif;
-                font-style: normal;
-                font-weight: 700;
-                font-size: 30px;
-                line-height: 56px;
-                text-align: center;
-
-                color: #FFFFFF;
-
-                }
+   
                 @media only screen and (max-width:800px) {
                   /* For tablets: */
                   .html {
