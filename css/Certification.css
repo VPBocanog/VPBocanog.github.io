@@ -94,7 +94,7 @@
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #41424C;
+  background-color: #8C0D07;
   transform-origin: bottom center;
   transition: transform 0.25s ease-out;
 }
@@ -141,7 +141,7 @@
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #41424C;
+  background-color: #8C0D07;
   transform-origin: bottom center;
   transition: transform 0.25s ease-out;
 }
@@ -192,7 +192,7 @@
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #41424C;
+  background-color: #8C0D07;
   transform-origin: bottom center;
   transition: transform 0.25s ease-out;
 }
@@ -267,7 +267,7 @@
           top: 150px;
           z-index: 1;
       
-          border: 1px solid #FFFFFF;
+          border: 1px solid #8C0D07;
       
       
           }
@@ -411,7 +411,7 @@
               top: 150px;
               z-index: 1;
           
-              border: 1px solid #FFFFFF;
+              border: 1px solid #8C0D07;
           
           
               }
@@ -616,7 +616,7 @@
                     top: 150px;
                     z-index: 1;
                 
-                    border: 1px solid #FFFFFF;
+                    border: 1px solid #8C0D07;
                 
                 
                     }
@@ -733,7 +733,7 @@
                       top: 150px;
                       z-index: 1;
                   
-                      border: 1px solid #FFFFFF;
+                      border: 1px solid #8C0D07;
                   
                   
                       }
@@ -783,15 +783,10 @@
 
 
 
-                            @media only screen and (max-width:480px) {
-                              /* For mobile: */
-                              html,body {
-                                width:100%;
-                                height:100%;
-                                margin:0;
-                                padding: 0;
-                                overflow-x:hidden;
-                          
+                            @media only screen and (max-width:90vw) {
+                              /* For tablets: */
+                              .html {
+                                zoom: 80%;
                               }
                               
                             }
