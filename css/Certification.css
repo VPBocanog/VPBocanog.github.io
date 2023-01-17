@@ -785,6 +785,33 @@
                               transform: scale(2.5);
                             }
 
+
+
+                            .Wpicrec2-div {
+                              position: absolute;
+            
+                              left: 452px;
+                              top: 233px; /*-80*/
+        
+                               background-position: center center;
+                  background-size: cover;
+                  background-repeat: no-repeat;
+                  margin:0 auto;
+                              }
+  
+  
+                              .imgWpicrec2{
+                                width: 210px;
+                        height: 140px;
+                        transition: 0.5s all ease-in-out;
+                              }
+  
+                              .imgWpicrec2:hover{
+  
+                                transform: scale(2.5);
+                              }
+  
+
 /****************************************************************************/
                             .container5{ /*GOOGLE*/
 
@@ -898,6 +925,89 @@
                                     
                                                             transform: scale(2.5);
                                                           }
+
+                                                          .Gpicrec3-div {
+                                                            position: absolute;
+                                                      
+                                                            left: 824px;
+                                                            top: 233px; /*-80*/
+                                                  
+                                                            background-position: center center;
+                                                            background-size: cover;
+                                                            background-repeat: no-repeat;
+                                                            margin:0 auto;
+                                                            }
+                                            
+                                                            .imgGpicrec3{
+                                                              width: 210px;
+                                                              height: 140px;
+                                                              transition: 0.5s all ease-in-out;
+                                                            }
+                                              
+                                            
+                                                            .imgGpicrec3:hover{
+                                            
+                                                              transform: scale(2.5);
+                                                            }
+                                            
+                                                            .Gpicrec4-div {
+                                                              position: absolute;
+                                                        
+                                                              left: 77px; /*-40*/
+                                                              top: 441px; /*-80*/
+                                                    
+                                                              background-position: center center;
+                                                              background-size: cover;
+                                                              background-repeat: no-repeat;
+                                                              margin:0 auto;
+                                                              }
+                                            
+                                                              .imgGpicrec4{
+                                                                width: 210px;
+                                                                height: 140px;
+                                                                transition: 0.5s all ease-in-out;
+                                                              }
+                                            
+                                                              .imgGpicrec4:hover{
+                                            
+                                                                transform: scale(2.5);
+                                                              }
+                                            
+                                            
+                                                              .Gpicrec5-div {
+                                                                position: absolute;
+                                                                
+                                                                left: 452px;
+                                                                top: 441px; 
+                                                            
+                                                                background-position: center center;
+                                                                background-size: cover;
+                                                                background-repeat: no-repeat;
+                                                                margin:0 auto;
+                                                                }
+                                            
+                                                                .imgGpicrec5{
+                                                                  width: 210px;
+                                                                  height: 140px;
+                                                                  transition: 0.5s all ease-in-out;
+                                                                }
+                                            
+                                                                .imgGpicrec5:hover{
+                                            
+                                                                  transform: scale(2.5);
+                                                                }
+
+
+
+
+
+
+
+
+
+
+
+
 
                             @media only screen and (max-width:90vw) {
                               /* For tablets: */
