@@ -789,21 +789,21 @@
 
                             .Wpicrec2-div {
                               position: absolute;
-            
+                              z-index: 1;
                               left: 452px;
                               top: 233px; /*-80*/
         
                                background-position: center center;
-                  background-size: cover;
-                  background-repeat: no-repeat;
-                  margin:0 auto;
+                              background-size: cover;
+                              background-repeat: no-repeat;
+                              margin:0 auto;
                               }
   
   
                               .imgWpicrec2{
                                 width: 210px;
-                        height: 160px;
-                        transition: 0.5s all ease-in-out;
+                              height: 160px;
+                              transition: 0.5s all ease-in-out;
                               }
   
                               .imgWpicrec2:hover{
